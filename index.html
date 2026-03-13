@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ✅ FIXED: Professional title instead of "Document" -->
+    <title>Aftab Abir | Web Developer Portfolio</title>
+    
+    <!-- ✅ NEW: SEO meta tags for better ranking -->
+    <meta name="description" content="Aftab Abir - Web Developer specializing in Frontend Development and Spring Boot">
+    <meta name="keywords" content="web developer, frontend, spring boot, react, portfolio">
+    <meta name="author" content="Aftab Abir">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- ✅ FIXED: Only one CSS file (desktop.css link removed) -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    
+    <!-- ========== NAVBAR SECTION ========== -->
+    <!-- ✅ IMPROVED: Used <header> tag instead of <div> (semantic HTML) -->
+    <header class="navbar">
+        <div class="logo-container col-6">
+            <img src="images/Generated Image October 06, 2025 - 9_45AM~2.jpg" alt="Aftab Abir Logo">
+        </div>
+        <nav class="navbar-links col-6">
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#about-me">About me</a>
+            <!-- ✅ FIXED: Proper links instead of "#" -->
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!-- navbar ends -->
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <!-- ✅ IMPROVED: Used <main> tag for main content -->
+    <main>
+        
+        <!-- ========== HOME SECTION ========== -->
+        <section class="home-section" id="home">
+            <div class="description">
+                <h3>Hi, I'm</h3>
+                <h1 class="name">Aftab Abir</h1>
+                <h1 class="profession">Web Developer</h1>
+                <br>
+                <!-- ✅ FIXED: Buttons now have proper links -->
+                <a href="#projects"><button>View my projects</button></a>
+                <a href="ATS_CV.pdf" download><button class="resume">My resume</button></a>
+            </div>
+            <div class="image-container">
+                <img src="images/PICTURE2.jpg" alt="Aftab Abir Photo">
+            </div>
+        </section>
+        <!-- home section ends -->
+
+        <!-- ========== SKILLS SECTION ========== -->
+        <section class="skills-section" id="skills">
+
+            <!-- Each skill card with animated progress circle -->
+            <div class="card" data-value="98">
+                <div class="progress-circle">
+                    <div class="card-name"><h4>HTML</h4></div>
+                </div>
+                <p class="percent">0%</p>
+            </div>
+
+            <div class="card" data-value="50">
+                <div class="progress-circle">
+                    <div class="card-name"><h4>CSS</h4></div>
+                </div>
+                <p class="percent">0%</p>
+            </div>
+
+            <div class="card" data-value="50">
+                <div class="progress-circle">
+                    <div class="card-name"><h4>JavaScript</h4></div>
+                </div>
+                <p class="percent">0%</p>
+            </div>
+
+            <div class="card" data-value="25">
+                <div class="progress-circle">
+                    <div class="card-name"><h4>React JS</h4></div>
+                </div>
+                <p class="percent">0%</p>
+            </div>
+
+            <div class="card" data-value="60">
+                <div class="progress-circle">
+                    <div class="card-name"><h4>Spring Boot</h4></div>
+                </div>
+                <p class="percent">0%</p>
+            </div>
+
+            <div class="card" data-value="70">
+                <div class="progress-circle">
+                    <div class="card-name"><h4>MySQL</h4></div>
+                </div>
+                <p class="percent">0%</p>
+            </div>
+
+        </section>
+        <!-- skills section ends -->
+
+        <!-- ========== ABOUT ME SECTION ========== -->
+        <section class="about-me-section" id="about-me">
+
+            <div class="about-me-img-container col-4">
+                <div class="image-1_text-container">
+                    <img src="images/html-website-svgrepo-com.png" alt="Frontend Development">
+                    <h4>Experienced Frontend Developer</h4>
+                </div>
+                <div class="image-2_text-container">
+                    <img src="images/spring-boot-svgrepo-com.png" alt="Spring Boot">
+                    <h4>Have working experience with Spring Boot</h4>
+                </div>
+                <div class="image-3_text-container">
+                    <img src="images/sql-database-sql-azure-svgrepo-com.png" alt="SQL Database">
+                    <h4>SQL Expert</h4>
+                </div>
+            </div>
+
+            <div class="about-me-description col-5">
+                <h1>About me</h1>
+                <p>
+                    I'm a passionate Web Developer focused on creating clean, responsive, and user-friendly web experiences.
+                    I love turning ideas into real projects with modern tools and technologies.
+                    Currently exploring new trends in front-end development to make my work even better.
+                </p>
+            </div>
+
+        </section>
+        <!-- about me section ends -->
+
+        <!-- ========== PROJECTS SECTION ========== -->
+        <!-- ✅ NEW: Projects section added (age missing chilo) -->
+        <section class="projects-section" id="projects">
+            <h1>My Projects</h1>
+            
+            <div class="projects-container">
+                
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <h3>AI Image Detector</h3>
+                    <p>Detects AI-generated images using machine learning</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>React</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <h3>E-Commerce Website</h3>
+                    <p>Full-stack clothing brand website with cart functionality</p>
+                    <div class="tech-stack">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>Personal portfolio showcasing my work and skills</p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+
+            </div>
+        </section>
+        <!-- projects section ends -->
+
+        <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact-section" id="contact">
+        <h1>Get In Touch</h1>
+        <p>Have a project in mind? Let's work together!</p>
+        
+        <!-- ✅ FIXED: Added id="contactForm" -->
+        <form class="contact-form" id="contactForm" action="https://formspree.io/f/xnjgdpwp" method="POST">
+            
+            <input type="text" name="name" placeholder="Your Name" required>
+            
+            <input type="email" name="_replyto" placeholder="Your Email" required>
+            
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+
+        <!-- Success message (hidden by default) -->
+        <div id="successMessage" style="display: none; color: #52c1e6; margin-top: 20px; font-size: 1.2rem;">
+            ✅ Message sent successfully! I'll get back to you soon.
+        </div>
+
+        <!-- Social links -->
+        <div class="social-links">
+            <a href="mailto:aftababir2003@gmail.com">Email</a>
+            <a href="https://github.com/AftabAbir/" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/md-aftab-mahabub-abir2003" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+
+    </main>
+    <!-- main content ends -->
+
+    <!-- ========== FOOTER ========== -->
+    <!-- ✅ IMPROVED: Used <footer> tag -->
+    <footer>
+        <p>&copy; 2025 Aftab Abir. All rights reserved.</p>
+    </footer>
+
+    <!-- ========== JAVASCRIPT ========== -->
+    <script>
+    // Skills section animation (same as before, works perfectly)
+    document.addEventListener("DOMContentLoaded", () => {
+        const cards = document.querySelectorAll(".card");
+
+        // Function to animate circular progress bars
+        function animateProgress() {
+            cards.forEach(card => {
+                const target = parseInt(card.getAttribute("data-value"));
+                const circle = card.querySelector(".progress-circle");
+                const percentText = card.querySelector(".percent");
+                let current = 0;
+
+                const interval = setInterval(() => {
+                    if (current >= target) {
+                        clearInterval(interval);
+                    } else {
+                        current++;
+                        circle.style.background = `conic-gradient(#52c1e6 ${current * 3.6}deg, rgba(255,255,255,0.1) 0)`;
+                        percentText.textContent = `${current}%`;
+                    }
+                }, 20);
+            });
+        }
+
+        // Trigger animation when skills section is visible
+        const skillsSection = document.querySelector(".skills-section");
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateProgress();
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.4 });
+
+        observer.observe(skillsSection);
+
+        // ========== CONTACT FORM - AUTO CLEAR (NEW CODE) ==========
+        // const contactForm = document.getElementById('contactForm');
+        // const successMessage = document.getElementById('successMessage');
+
+        // if (contactForm) {
+        //     contactForm.addEventListener('submit', function(e) {
+        //         // Form submit hobe normally (Formspree e jabe)
+        //         // But submit er por form clear kore dibo
+                
+        //         setTimeout(() => {
+        //             // Form reset koro (all fields clear)
+        //             contactForm.reset();
+                    
+        //             // Success message show koro
+        //             successMessage.style.display = 'block';
+                    
+        //             // 5 seconds por success message hide koro
+        //             setTimeout(() => {
+        //                 successMessage.style.display = 'none';
+        //             }, 5000);
+                    
+        //         }, 1000); // 1 second delay (Formspree e data pathano complete hobe)
+        //     });
+        // }
+
+
+        const contactForm = document.getElementById('contactForm');
+        const successMessage = document.getElementById('successMessage');
+
+        if (contactForm) {
+            contactForm.addEventListener('submit', async function(e) {
+                e.preventDefault(); // redirect বন্ধ করবে
+
+                const formData = new FormData(contactForm);
+
+                const response = await fetch(contactForm.action, {
+                    method: "POST",
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    contactForm.reset(); // form clear
+                    successMessage.style.display = 'block';
+
+                    setTimeout(() => {
+                        successMessage.style.display = 'none';
+                    }, 5000);
+                }
+            });
+        }
+
+    });
+    </script>
+
+</body>
+</html>
